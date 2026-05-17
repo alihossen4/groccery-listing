@@ -44,13 +44,14 @@ body {
     top: 45%;
     transform: translateY(-50%);
     z-index: 10;
-    size: 20px;
+    font-size: 24px;
     color: black;
     width: 40px;
     height: 40px;
     background: white;
     border-radius: 50%;
     font-weight: 600;
+    cursor: pointer;
 }
 .swiper-button-prev {
   position: absolute;
@@ -63,5 +64,6 @@ body {
   right: 10px;
 }
 .swiper-button-next:hover, .swiper-button-prev:hover{
-  color: var(--color-primary);
+  color: var(--color-secondary);
+  background: var(--color-primary);
 }

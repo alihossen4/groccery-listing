@@ -1,13 +1,12 @@
 import Header from "@/components/Header";
-import HomeSlider from "@/components/HomeSlider";
-
+import Home from "@/components/Home";
 
  
-export default function Home() {
+export default function page() {
   return (
     <>
       <Header/>
-      <HomeSlider/>
+      <Home />
     </>
   )
 }
