@@ -4,7 +4,7 @@
   --color-secondary: #f0f0f0;
 }
 .container{
-    max-width: 1520px;
+    max-width: 82%;
     margin:0 auto;
 }
 .item{
@@ -107,8 +107,26 @@
   background-color: var(--color-primary) !important;
   color: white !important;
 }
-nav{
-  top: 0 !important;
-  position: sticky !important;
-  z-index: 100 !important;
+.upper-footer {
+  max-width: 1000px;
+  margin: 30px auto;
+  margin-top: 40px;
+}
+.footer-icons{
+  transition: all .3s ease;
+  display: block;
+  margin: 3px auto;
+}
+.footer-icons:hover{
+  transform: translateY(-5px);
+  color: var(--color-primary) !important;
+}
+.upper-footer.one{
+  text-align: center;
+}
+.upper-footer.one p{
+  color: rgb(197, 193, 193)
+}
+.lower-footer {
+  max-width: 1600px;
 }
