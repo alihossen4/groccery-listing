@@ -8,7 +8,7 @@ const Home = () => {
       <div className="slider-wrapper bg-[#f1f1f1]">
         <HomeSlider />
         <CategorySlider />
-        <PopularProducts />
+        
       </div>
     </>
   )

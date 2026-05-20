@@ -79,3 +79,31 @@
  .cart-group{
   color: black !important;
  }
+ .css-1usuzwp-MuiButtonBase-root-MuiTab-root.Mui-selected {
+  color: var(--color-primary) !important;
+  font-weight: 600 !important;
+ }
+ .MuiTabs-indicator {
+  /* color: var(--color-primary) !important; */
+  background-color: var(--color-primary) !important;
+
+ }
+ .MuiTabScrollButton-root svg {
+  font-size: 20px !important;
+}
+.Product-Swiper{
+  overflow: visible !important;
+  /* scroll-behavior: none !important;  */
+ 
+}
+.btn-g{
+  background-color: var(--color-secondary) !important;
+  border: 1px solid var(--color-primary) !important;
+  color: var(--color-primary) !important;
+  font-weight: 600 !important;
+
+}
+.btn-g:hover{
+  background-color: var(--color-primary) !important;
+  color: white !important;
+}
