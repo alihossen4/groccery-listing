@@ -4,8 +4,8 @@ import { FaAngleDown } from 'react-icons/fa6'
 
 const Navbar = () => {
   return (
-    <nav className='py-3'>
-        <div className="container flex items-center justify-between gap-5">
+    <nav className='py-3 top-0 sticky bg-white z-50 shadow-sm'>
+        <div className="container flex items-center justify-between gap-5 top-0 sticky">
             <Link href={"/"} className='text-[17px] text-gray-600 font-[600] hover:text-primary'>Home</Link>
             <Link href={"/fruits-vegetables"} className='text-[17px] text-gray-600 font-[600] hover:text-primary'>Fruits & Vegetables</Link>
             <Link href={"/meats-seafood"} className='text-[17px] text-gray-600 font-[600] hover:text-primary'>Meats & Seafood</Link>

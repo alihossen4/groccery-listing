@@ -10,7 +10,7 @@ import Navbar from './Navbar'
 const Header = () => {
   return (
     <>
-    <div className="header">
+    <div className={`header `}>
         <header>
             <div className="container flex items-center justify-between py-0">
                 <div className="logo">
@@ -38,7 +38,6 @@ const Header = () => {
             </div>
         </header>
         <hr className='text-gray-300'/>
-        <Navbar/>
     </div>
     </>
   )

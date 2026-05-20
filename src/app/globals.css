@@ -107,3 +107,8 @@
   background-color: var(--color-primary) !important;
   color: white !important;
 }
+nav{
+  top: 0 !important;
+  position: sticky !important;
+  z-index: 100 !important;
+}
