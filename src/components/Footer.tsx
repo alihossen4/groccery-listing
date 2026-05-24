@@ -71,10 +71,13 @@ const Footer = () =>{
                                 <li>Login</li>
                             </ul>
                         </div>
-                        <div className="email w-[40%]">
-                            <h3 className="text-[20px]">Subcribe to newsletter</h3>
+                        <div className="email w-[35%]">
+                            <h3 className="text-[24px] font-[600] text-gray-600">Subcribe to newsletter</h3>
+                            <p className="text-[14px] text-gray-500">Subcribe to our newsletter to get the latest updates and offers.</p>
                             <form action="">
-
+                                <input type="email" placeholder="Enter your email" className="w-[80%] p-2 border border-gray-300 rounded-l-md focus:outline-none my-2 block bg-white"/>
+                                <br/>
+                                <button className="p-2 px-4 mb-3 bg-green-500 text-white rounded-md hover:bg-green-600">Subcribe</button>
                             </form>
                         </div>
                     </div>
